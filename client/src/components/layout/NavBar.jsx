@@ -7,8 +7,8 @@ import FeaturedPlayListOutlinedIcon from '@material-ui/icons/FeaturedPlayListOut
 import StarBorderIcon from '@material-ui/icons/StarBorder';
 import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
 import PropTypes from 'prop-types';
-import actions from '../redux/actions/actions';
-import More from './More';
+import actions from '../../redux/actions/actions';
+import More from '../more/More';
 
 const styles = {
   root: {

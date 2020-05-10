@@ -7,8 +7,8 @@ import { connect } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import HealthLogToggle from './HealthLogToggle';
-import actions from '../redux/actions/actions';
-import buttonsCss from '../css/buttons';
+import actions from '../../redux/actions/actions';
+import buttonsCss from '../../styles/buttons';
 
 const useStyles = makeStyles({
   hr: {

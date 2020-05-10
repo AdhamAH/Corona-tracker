@@ -4,11 +4,13 @@ import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import logger from 'redux-logger';
+import { ThemeProvider, CssBaseline } from '@material-ui/core';
 import rootReducer from './redux/reducers/rootReducer';
 import * as serviceWorker from './serviceWorker';
 import App from './components/App';
 import Loading from './components/Loding';
 import './i18n';
+import theme from './styles/theme';
 // creating the store, connecting to the reducer and applying middleware with thunk
 const store = createStore(rootReducer, applyMiddleware(thunk, logger));
 
@@ -16,9 +18,12 @@ const store = createStore(rootReducer, applyMiddleware(thunk, logger));
 ReactDOM.render(
   <div>
     <Suspense fallback={<Loading />}>
-      <Provider store={store}>
-        <App />
-      </Provider>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <Provider store={store}>
+          <App />
+        </Provider>
+      </ThemeProvider>
     </Suspense>
   </div>,
 

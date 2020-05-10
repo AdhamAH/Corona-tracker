@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { Button, ButtonGroup, Grid, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import FlashCards from './FlashCards';
-import { cardData, quizData } from '../utils/fakeCardData';
-import buttonsCss from '../css/buttons';
+import { cardData, quizData } from '../../utils/fakeCardData';
+import buttonsCss from '../../styles/buttons';
 
 const useStyles = makeStyles({
   buttonGroup: {

@@ -13,7 +13,7 @@ import {
 } from '@material-ui/core';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import buttonsCss from '../../css/buttons';
+import buttonsCss from '../../styles/buttons';
 import actions from '../../redux/actions/actions';
 
 const buttonWidth = '75px';

@@ -5,7 +5,7 @@ import { useHistory } from 'react-router-dom';
 import { Typography, Slider, Button, Grid, withStyles } from '@material-ui/core';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import buttonsCss from '../../css/buttons';
+import buttonsCss from '../../styles/buttons';
 import actions from '../../redux/actions/actions';
 
 const useStyles = makeStyles(theme => ({

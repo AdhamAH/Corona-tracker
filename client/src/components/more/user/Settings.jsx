@@ -7,8 +7,8 @@ import PropTypes from 'prop-types';
 import { Typography, Grid, Button } from '@material-ui/core';
 import DeleteAllDataDialog from './DeleteAllDataDialog';
 import DeletionDialog from './DeletionDialog';
-import buttonsCss from '../css/buttons';
-import TranslationsMenu from './Translations';
+import buttonsCss from '../../../styles/buttons';
+import TranslationsMenu from '../../Translations';
 
 const useStyles = makeStyles(() => ({
   root: {

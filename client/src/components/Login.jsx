@@ -4,7 +4,7 @@ import { useConnect } from '@blockstack/connect';
 import { useTranslation } from 'react-i18next';
 import { makeStyles } from '@material-ui/core/styles';
 import TranslationsMenu from './Translations';
-import buttonsCss from '../css/buttons';
+import buttonsCss from '../styles/buttons';
 import { FullLogo } from '../utils/imgUrl';
 
 const useStyles = makeStyles(theme => ({

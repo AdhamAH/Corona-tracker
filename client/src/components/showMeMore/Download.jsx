@@ -4,7 +4,7 @@ import Button from '@material-ui/core/Button';
 import ReactExport from 'react-export-excel';
 import { makeStyles } from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
-import buttonsCss from '../../css/buttons';
+import buttonsCss from '../../styles/buttons';
 import { dataSet } from '../../utils/constants';
 
 const { ExcelFile } = ReactExport;

@@ -12,8 +12,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import { useBlockstack } from 'react-blockstack';
 import PropTypes from 'prop-types';
 import { useHistory } from 'react-router-dom';
-import actions from '../redux/actions/actions';
-import { TextLogo, Logo } from '../utils/imgUrl';
+import actions from '../../../redux/actions/actions';
+import { TextLogo, Logo } from '../../../utils/imgUrl';
 
 const useStyles = makeStyles({
   logo: {
